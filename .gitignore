@@ -1,3 +1,5 @@
 node_modules/
 nbproject
 public/dist/
+.env.test
+.env.development
