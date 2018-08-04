@@ -1,0 +1,31 @@
+.content-container {
+  
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: $m-size;
+  @media (min-width: $desktop-breakpoint) {
+    flex-direction: row;
+    margin-bottom: $l-size;
+  }
+}
+
+.input-group__item {
+  margin-bottom: $s-size;
+  @media (min-width: $desktop-breakpoint) {
+    margin: 0 $s-size 0 0;
+  }
+}
+
+.input-group__element {
+  padding: 14px;
+  border: 1px solid rgb(219, 219, 219);
+  ::-webkit-input-placeholder {
+    font-size: 100%;
+    }
+  ::placeholder {
+    font-size: 100%;
+  }
+}

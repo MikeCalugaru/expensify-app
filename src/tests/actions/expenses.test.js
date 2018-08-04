@@ -13,7 +13,7 @@ import {
 import expenses from '../fixtures/expenses';
 import database from '../../firebase/firebase';
 
-const uid = 'thisismytestuid';
+const uid = '0ae2584c-4cf6-4026-9da3-81a6fd37f3c1';
 const defaultAuthState = {
   auth: { uid }
 };
